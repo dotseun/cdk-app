@@ -24,7 +24,7 @@ export class PipelineStack extends cdk.Stack {
         const sourceAction = new codepipeline_actions.CodeStarConnectionsSourceAction({
             actionName: 'GitHub',
             connectionArn: 'arn:aws:codestar-connections:eu-west-2:412554673201:connection/a0f39c55-b0df-4569-bd18-56871b254b35',
-            owner: 'segun',
+            owner: 'dotseun',
             repo: 'cdk-app',
             branch: 'main',
             output: sourceOutput
