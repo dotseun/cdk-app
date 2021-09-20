@@ -132,8 +132,8 @@ export class PipelineStack extends cdk.Stack {
                     },
                     build: {
                         commands: [
-                            //'awsudo arn:aws:iam::412554673201:role/mybucketapp-codeBuildCDKRole cdk deploy MybucketappStack'
-                            'awsudo arn:aws:iam::412554673201:role/service-role/aws-codestar-service-role cdk deploy MybucketappStack'
+                            'awsudo arn:aws:iam::412554673201:role/mybucketapp-codeBuildCDKRole cdk deploy MybucketappStack'
+                            //'awsudo arn:aws:iam::412554673201:role/service-role/aws-codestar-service-role cdk deploy MybucketappStack'
                         ],
                     },
                 },
