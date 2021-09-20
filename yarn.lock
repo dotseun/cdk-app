@@ -141,7 +141,7 @@
     "@aws-cdk/core" "1.123.0"
     constructs "^3.3.69"
 
-"@aws-cdk/aws-codebuild@1.123.0":
+"@aws-cdk/aws-codebuild@1.123.0", "@aws-cdk/aws-codebuild@^1.123.0":
   version "1.123.0"
   resolved "https://registry.yarnpkg.com/@aws-cdk/aws-codebuild/-/aws-codebuild-1.123.0.tgz#3baac4f359946247ded4ebb29d67368201b701ac"
   integrity sha512-JAP9QZWGTKXnMLltHRtirsPNdHlTKhahbYoUmIWRiyw6Y0fRlkB1uR7z1nFYcVxZDuGP0+QGNMeaYjf9q9Rgeg==
@@ -201,7 +201,7 @@
     "@aws-cdk/core" "1.123.0"
     constructs "^3.3.69"
 
-"@aws-cdk/aws-codepipeline-actions@1.123.0":
+"@aws-cdk/aws-codepipeline-actions@1.123.0", "@aws-cdk/aws-codepipeline-actions@^1.123.0":
   version "1.123.0"
   resolved "https://registry.yarnpkg.com/@aws-cdk/aws-codepipeline-actions/-/aws-codepipeline-actions-1.123.0.tgz#2dbd0fd94ae912a08795775cf8509d95e4afeb5f"
   integrity sha512-nB3es3w3CcmP3xPoZHZkfXJEmcTRd+rsFcImZVdKpsNiWpcJ0y9/3d6Vn34242iy+bzhscm19oSXyKpKQQlyMg==
@@ -227,7 +227,7 @@
     case "1.6.3"
     constructs "^3.3.69"
 
-"@aws-cdk/aws-codepipeline@1.123.0":
+"@aws-cdk/aws-codepipeline@1.123.0", "@aws-cdk/aws-codepipeline@^1.123.0":
   version "1.123.0"
   resolved "https://registry.yarnpkg.com/@aws-cdk/aws-codepipeline/-/aws-codepipeline-1.123.0.tgz#ecea904686f5737b101bc5f09019acc0dfad564c"
   integrity sha512-in0JEMesILey7iezKNoq1IVA6LKknj8hAKAcc+Vm56YnKdWZ0if7BcxoWl0xusvTuRLsa3UDWjUfTAPMzCmr6g==
