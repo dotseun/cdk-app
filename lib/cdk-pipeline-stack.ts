@@ -15,7 +15,7 @@ export class PipelineStack extends cdk.Stack {
         */
         const sourceOutput = new codepipeline.Artifact();
         const cdkBuildOutput = new codepipeline.Artifact('mybucketapp-CdkBuildOutput');
-        const cdkBuildOutputDiff = new codepipeline.Artifact('mybucketapp-CdkDiffOutput2');
+        const cdkBuildOutputDiff = new codepipeline.Artifact('mybucketapp-CdkDiffOutput');
         const cdkBuildOutputDeploy = new codepipeline.Artifact('mybucketapp-CdkDeployOutput');
 
         // Performs a Git clone from the cinch-labs Github org
@@ -107,7 +107,7 @@ export class PipelineStack extends cdk.Stack {
                     },
                 },
                 artifacts: {
-                    'base-directory': 'cdk.out',
+                    'base-directory': 'cdk.out/*',
                     files: [
                         '*',
                     ],
