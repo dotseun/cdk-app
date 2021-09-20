@@ -1,9 +1,22 @@
 import * as cdk from '@aws-cdk/core';
+import * as s3 from '@aws-cdk/aws-s3';
 
-export class CdkAppStack extends cdk.Stack {
+export class MybucketappStack extends cdk.Stack {
   constructor(scope: cdk.Construct, id: string, props?: cdk.StackProps) {
     super(scope, id, props);
 
-    // The code that defines your stack goes here
+     // The code that defines your stack goes here
+    
+    new s3.Bucket(this, 'mybucketapp-bucket-1', {
+      bucketName: 'mybucketapp-bucket-1',
+      removalPolicy: cdk.RemovalPolicy.DESTROY,
+      versioned: false,
+    });
+
+    new s3.Bucket(this, 'mybucketapp-bucket-2', {
+      bucketName: 'mybucketapp-bucket-2',
+      removalPolicy: cdk.RemovalPolicy.DESTROY,
+      versioned: false,
+    });
   }
 }
