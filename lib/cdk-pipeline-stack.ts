@@ -107,7 +107,7 @@ export class PipelineStack extends cdk.Stack {
                     },
                 },
                 artifacts: {
-                    'base-directory': 'cdk.out/*',
+                    'base-directory': 'cdk.out',
                     files: [
                         '*',
                     ],
